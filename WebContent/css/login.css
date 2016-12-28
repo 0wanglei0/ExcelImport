@@ -1,0 +1,47 @@
+body {
+  background: url("../images/background/timg.jpg");
+}
+
+.title {
+  padding-top: 10px;
+  padding-left: 30px;
+  padding-bottom: 15px;
+}
+
+#loginDiv {
+  background-color: bisque;
+  position: absolute;
+  width: 300px;
+  height: 200px;
+  left: 60%;
+  top: 30%;
+  margin-left: -250px;
+}
+
+#loginTable td {
+  padding-bottom: 10px;
+}
+
+#loginTable tr {
+  height: 50px;
+}
+
+.inputLabel {
+  padding-left: 30px;
+  width: 50px;
+  text-align: left;
+}
+
+.inputTxt {
+  width: 150px;
+}
+
+.submitBtn {
+  text-align: center;
+  margin-left: 168px;
+  width: 100px;
+  height: 30px;
+  background: url("../images/button/bg11.jpg") no-repeat left top;
+  color: #FFF;
+}
+}
