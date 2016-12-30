@@ -6,3 +6,4 @@ jsp页面form表单中使用  action=“servlet” method=“post/get”  建议
  \<url-pattern>/LoginServlet \</url-pattern>  是使用的servlet<br/>
 纯js的ajax  使用xmlhttp进行前后台交互  <br/>
 
+http协议 hyperText Transfer Protocol   状态码 200  代表处理成功   content-type<br/>
