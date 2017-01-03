@@ -1,7 +1,6 @@
 package com.wang.servlet;
 
 import java.io.IOException;
-import java.io.PrintWriter;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
@@ -23,12 +22,12 @@ public class LoginServlet extends HttpServlet {
             throws ServletException, IOException {
         request.setCharacterEncoding("UTF-8");
         response.setContentType("text/html;charset=UTF-8");
-        PrintWriter out = response.getWriter();
         String username = request.getParameter("username").trim();
-        if (username != "wang") {
-            out.print("<h1>username error</h1>");
+        if (!"wang".equals(username)) {
+            request.getRequestDispatcher("/error.jsp").forward(request, response);
+        } else {
+            request.getRequestDispatcher("/jsp/main.jsp").forward(request, response);
         }
-        //request.getRequestDispatcher("/jsp/main.jsp").forward(request, response);;
     }
 
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
