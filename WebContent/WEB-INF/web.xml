@@ -20,12 +20,20 @@
     <servlet-name>HelloWorld</servlet-name>
     <url-pattern>/Test/HelloWorld</url-pattern>
   </servlet-mapping>
-    <servlet>
+  <servlet>
     <servlet-name>HelloForm</servlet-name>
     <servlet-class>test.com.servlet.HelloForm</servlet-class>
   </servlet>
   <servlet-mapping>
     <servlet-name>HelloForm</servlet-name>
     <url-pattern>/Test/HelloForm</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>CheckBox</servlet-name>
+    <servlet-class>test.com.servlet.CheckBox</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>CheckBox</servlet-name>
+    <url-pattern>/ExcelImport/CheckBox</url-pattern>
   </servlet-mapping>
 </web-app>
