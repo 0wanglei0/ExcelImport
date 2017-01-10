@@ -1,4 +1,4 @@
-package com.wang.servlet;
+package com.login.servlet;
 
 import java.io.IOException;
 
@@ -15,7 +15,7 @@ public class LoginServlet extends HttpServlet {
 
     public void init() throws ServletException
     {
-        return;
+        System.out.println("Begin");
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response)

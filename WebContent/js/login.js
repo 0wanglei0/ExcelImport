@@ -17,15 +17,10 @@ function clickBtn(form) {
     }else{
         xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
     }
-    xmlhttp.onreadystatechange=function(){
-        if(xmlhttp.readyState==4&&xmlhttp.status==200){
-            window.location.href="/ExcelImport/jsp/main.jsp";
-        }
-    }
-    var url="/ExcelImport/login.html";
+    var url="/ExcelImport";
     var sendStr = "username=" + username + " password=" + password;
     
     xmlhttp.open("POST",url, true);
-    xmlhttp.setRequestHeader("Content-type","application/x-www-form-urlencoded");
+    xmlhttp.setRequestHeader("Content-type","text/html");
     xmlhttp.send(sendStr);
 }
