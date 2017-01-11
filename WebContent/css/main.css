@@ -4,9 +4,12 @@ body {
 
 .top {
   height: 15%;
-  background-color: black;
+  background-color: #f2e9db;
 }
 
+.toptable {
+  float: right;
+}
 .center {
   height: 70%;
 }

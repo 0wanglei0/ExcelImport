@@ -1,5 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
-<script type="text/javascript" src="js/error.js"></script>
+<script type="text/javascript" src="js/Error.js"></script>
 <link href="css/error.css" rel="stylesheet" type="text/css">
 <div id="errorDiv">
   <div>
