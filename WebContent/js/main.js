@@ -26,3 +26,17 @@ function extra(x) {
         return x;
     }
 }
+
+jQuery(function($) {
+    $("#fromBtn").click(function() {
+        $('#areaDialog').dialog({
+            title: 'choosePlace',
+            width: 400,
+            height: 200,
+            closed: false,
+            cache: false,
+            href: $(this).CityPicker,
+            modal: true 
+        });
+    });
+});

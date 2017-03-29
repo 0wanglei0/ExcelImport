@@ -67,4 +67,33 @@
 		<servlet-name>Refresh</servlet-name>
 		<url-pattern>/ExcelImport/Refresh</url-pattern>
 	</servlet-mapping>
+
+<servlet>
+    <servlet-name>OnlineUserServlet</servlet-name>
+    <servlet-class>
+com.login.servlet.OnlineUserServlet
+</servlet-class>
+</servlet>
+ 
+<servlet-mapping>
+    <servlet-name>OnlineUserServlet</servlet-name>
+    <url-pattern>/online</url-pattern>
+</servlet-mapping>
+ 
+<servlet>
+    <servlet-name>logout</servlet-name>
+    <servlet-class>com.login.servlet.LogoutServlet</servlet-class>
+</servlet>
+ 
+<servlet-mapping>
+    <servlet-name>logout</servlet-name>
+    <url-pattern>/logout</url-pattern>
+</servlet-mapping>
+
+<listener>
+<description>sessionListener</description>
+      <listener-class>
+          com.login.servlet.SessionCounter
+      </listener-class>
+  </listener>
 </web-app>
