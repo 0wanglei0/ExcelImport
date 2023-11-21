@@ -8,15 +8,15 @@
 
     <default
         revision="master"
-        remote="origin"
+        remote="ExcelImport"
         sync-j="4"
     />
 
     
     <project
-        path="." 
+        path="ExcelImport" 
         name="ExcelImport" 
-        remote="origin"
+        remote="ExcelImport"
         revision="master"
     />
 </manifest>
