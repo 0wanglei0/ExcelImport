@@ -14,15 +14,8 @@
 
     
     <project
-        path="ExcelImport" 
+        path="." 
         name="ExcelImport" 
-        remote="origin"
-        revision="master"
-    />
-
-    <project
-        path="ExcelImport"
-        name="ExcelImport"
         remote="origin"
         revision="master"
     />
