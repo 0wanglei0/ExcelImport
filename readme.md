@@ -10,4 +10,6 @@ http协议 hyperText Transfer Protocol   状态码 200  代表处理成功   
 
 
 
-default.xml 在default和project标签中使用remote配置需要与remote标签中的name相同
+**default.xml 在default和project标签中使用remote配置需要与remote标签中的name相同**
+
+**路径是项目路径的上一级**
