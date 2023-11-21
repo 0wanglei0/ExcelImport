@@ -7,3 +7,7 @@ jsp页面form表单中使用  action=“servlet” method=“post/get”  建议
 纯js的ajax  使用xmlhttp进行前后台交互  <br/>
 
 http协议 hyperText Transfer Protocol   状态码 200  代表处理成功   content-type<br/>
+
+
+
+default.xml 在default和project标签中使用remote配置需要与remote标签中的name相同
