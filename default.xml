@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<manifest>
+    <remote
+        name="ExcelImport" // 仓库名,依照自己git仓库填写,这里只做示例,下同
+        fetch="https://github.com/0wanglei0/ExcelImport.git" // 仓库地址,建议使用ssh链接(也可使用https)
+        revision="master" // 默认分支(默认从该分支上获取代码)
+    />
+
+    <default
+        revision="master" // revision的默认值,下面project中没有配置revision时,使用此值
+        remote="origin" // remote的默认值,下面project中没有配置remote时,使用此值
+        sync-j="4"
+    />
+
+    // 单独配置仓库中各项目参数,这里对单独一个做出注释
+    <project
+        path="ExcelImport" // 拉取代码后的相对路径
+        name="ExcelImport" // 项目名,与remote.fetch做拼接即是完整项目地址,示例ssh://git@gitlab.com/lyuxuming/XHMain
+        remote="origin" // 仓库名
+        revision="master" // 默认拉取的分支名
+    />
+
+    <project
+        path="ExcelImport"
+        name="ExcelImport"
+        remote="origin"
+        revision="master"
+    />
+</manifest>
