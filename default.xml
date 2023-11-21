@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <manifest>
     <remote
-        name="ExcelImport"
-        fetch="https://github.com/0wanglei0/ExcelImport.git"
+        name="ExcelImport.git"
+        fetch="https://github.com/0wanglei0"
         revision="master"
     />
 
     <default
         revision="master"
-        remote="ExcelImport"
+        remote="ExcelImport.git"
         sync-j="4"
     />
 
@@ -16,7 +16,7 @@
     <project
         path="ExcelImport" 
         name="ExcelImport" 
-        remote="ExcelImport"
+        remote="ExcelImport.git"
         revision="master"
     />
 </manifest>
